@@ -33,7 +33,7 @@ describe('Testando Pokemon.js', () => {
 
     const moreDetailsText = 'More details';
     const detailsLink = screen.getByRole('link', { name: moreDetailsText });
-    const linkRegex = new RegExp('.*/pokemons/25');
+    const linkRegex = new RegExp('.*/pokemons/');
 
     expect(detailsLink.textContent).toBe(moreDetailsText);
     expect(detailsLink.href).toMatch(linkRegex);

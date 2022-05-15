@@ -2,7 +2,10 @@
 Esse projeto consiste em testes para uma aplicação React.
 
 ---
+## Tecnologias:
+Jest
 
+---
 # Habilidades
 
 Neste projeto, capacidade de:
